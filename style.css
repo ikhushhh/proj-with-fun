@@ -1,0 +1,63 @@
+html{
+    background-color: teal;
+}
+
+.info{
+    text-align: center;
+    background-color: teal;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.info .lead{
+    font-style: italic;
+}
+
+.info .lead::selection{
+    color: darkorange;
+}
+
+h1::selection{
+    color: darkorange;
+}
+
+.info img{
+    width: 10rem;
+    border-radius: 50%;
+    border-style:groove;
+    border-color: darkslategrey;
+}
+
+.usr{
+    background-color: teal;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.usr h2{
+    font-size: 2rem;
+}
+
+h2::selection{
+    color: darkorange;
+}
+
+
+.usr a{
+    color:burlywood;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.usr a:hover{
+    color: cornsilk;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.usr p{
+    background-color: blueviolet;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    border-radius: 10px 100px / 120px;
+}
